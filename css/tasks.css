@@ -1,16 +1,14 @@
-.tasks__button {
-    display: flex;
-    color: white;
-    width: 30px;
-    height: 30px;
-    justify-content: center;
-
+.tasks  {
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
 }
 
-.tasks__button--done {
-    background-color: green;
+.task__item {
+    border-bottom: 1px solid #dcdcdc;
+    margin: 10px;
 }
 
-.tasks__button--remove {
-    background-color: red;
+.task__content--done {
+    text-decoration: line-through #000000;
 }
