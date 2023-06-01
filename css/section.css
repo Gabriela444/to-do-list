@@ -1,0 +1,7 @@
+.section {
+    background-color: #ffffff;
+    padding: 20px;
+    align-items: center;
+    margin: 10px;
+    display: grid;
+}
