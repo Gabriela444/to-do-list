@@ -1,0 +1,28 @@
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 100%;
+}
+
+.form__item--first {
+    display: flex;
+    flex-basis: 80%;
+}
+
+.form__item--second {
+    display: flex;
+    flex-basis: 20%;
+}
+
+.form__input {
+    border: 1px solid #dcdcdc;
+    box-shadow: rgb(211, 211, 211) 0px 0px 0px 1px;
+    margin: 20px;
+    padding: 7px;
+    width: 100%;
+}
+
+/* .form__task--new {
+    margin-bottom: 0;
+} */
