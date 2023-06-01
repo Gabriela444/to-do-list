@@ -1,0 +1,30 @@
+.form__button {
+    background-color: #007383;
+    color: #ffffff;
+    padding: 10px;
+    border-color: #ffffff;
+    margin: 20px;
+}
+
+.tasks__button {
+    color: #ffffff;
+    border-color: #ffffff;
+    margin: 0 8px 8px 8px;
+}
+
+.tasks__button--done {
+    background-color: #1a7b1f;
+    border-color: #ffffff;
+    color: #ffffff;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+}
+
+.tasks__button--remove {
+    background-color: #ed293c;
+    color: #ffffff;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+}
