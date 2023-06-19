@@ -6,7 +6,11 @@ html {
     box-sizing: inherit;
 }
 
-.body {
-    font-family: 'Montserrat', sans-serif;
-
+.container {
+    font-family: 'Roboto', sans-serif;
+    background-color: #eeefed;
+    margin: 50px auto;
+    max-width: 1000px;
+    word-break: break-word;
+    padding: 20px;
 }
