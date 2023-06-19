@@ -1,8 +1,7 @@
 .form {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-gap: 10px;
 }
 
 .form__item--first {
@@ -22,7 +21,3 @@
     padding: 7px;
     width: 100%;
 }
-
-/* .form__task--new {
-    margin-bottom: 0;
-} */
