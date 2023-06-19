@@ -7,6 +7,7 @@ In this repository I want to show you *to do list*. You can make here your own l
 
 ## Demo
 
+https://gabriela444.github.io/to-do-list/
 ![preview of web](gif/preview.gif)
 
 ## Used:  
