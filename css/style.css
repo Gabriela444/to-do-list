@@ -2,13 +2,15 @@ html {
     box-sizing: border-box;
 }
 
-*, ::after, ::before {
+*,
+::after,
+::before {
     box-sizing: inherit;
 }
 
 .container {
     font-family: 'Roboto', sans-serif;
-    background-color: #eeefed;
+    background-color: #eee;
     margin: 50px auto;
     max-width: 1000px;
     word-break: break-word;
