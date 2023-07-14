@@ -2,28 +2,30 @@
     background-color: #007383;
     color: #ffffff;
     padding: 10px;
-    border-color: #ffffff;
-    margin: 20px;
+    border: none;
+}
+
+.form__button:hover {
+    background-color: #008697;
 }
 
 .form__button:active {
-    background-color: #018a9c;
-    border-color: #000000;
+    background-color: #01a1b6;
 }
 
 .tasks__button {
     color: #ffffff;
-    border-color: #ffffff;
-    margin: 0 8px 8px 8px;
+    border: none;
+    margin: 8px;
 }
 
 .tasks__button--done {
     background-color: #1a7b1f;
-    border-color: #ffffff;
+    border: none;
     color: #ffffff;
     width: 30px;
     height: 30px;
-    align-items: center;
+
 }
 
 .tasks__button--done:hover {
@@ -36,9 +38,10 @@
 
 .tasks__button--remove {
     background-color: #ed293c;
+    border: none;
     color: #ffffff;
     padding-top: 2px;
-    padding-left: 9px;
+    padding-left: 10px;
     width: 30px;
     height: 30px;
     align-items: center;
@@ -49,5 +52,5 @@
 }
 
 .tasks__button--remove:active {
-    background-color: #ff3d51;
+    background-color: #ff4659;
 }
