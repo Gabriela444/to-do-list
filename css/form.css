@@ -1,25 +1,12 @@
 .form {
     display: grid;
     grid-template-columns: 1fr auto;
-    grid-gap: 10px;
-}
-
-.form__item--first {
-    display: flex;
-    flex-basis: 80%;
-}
-
-.form__item--second {
-    display: flex;
-    flex-basis: 20%;
+    grid-gap: 20px;
 }
 
 .form__input {
     border: 1px solid #dcdcdc;
-    box-shadow: rgb(211, 211, 211) 0px 0px 0px 1px;
-    margin: 20px;
-    padding: 7px;
-    width: 100%;
+    padding: 10px;
 }
 
 @media(max-width:767px) {
