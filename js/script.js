@@ -104,7 +104,7 @@
             htmlButtonString += `
                 <span>
                 <button class="tasks__button--hidden js-toggleHideDoneTasks">${hideDoneTasks ? "Pokaż ukończone" : "Ukryj ukończone"}</button>
-                <button class="tasks__button--hidden js-setAllTasksDone"${tasks.every(({ done }) => done) ? "disabled" : ""}>Ukończ wszystkie</button>
+                <button class="tasks__button--hidden tasks__button--hiddenAllDone js-setAllTasksDone"${tasks.every(({ done }) => done) ? "disabled" : ""}>Ukończ wszystkie</button>
                 </span>
             `};
 
