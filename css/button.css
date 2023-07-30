@@ -3,20 +3,23 @@
     color: #ffffff;
     padding: 10px;
     border: none;
+    transition: 0.4s;
 }
 
 .form__button:hover {
-    background-color: #008697;
+    background-color: #0095a8;
+    transform: scale(1.1);
 }
 
 .form__button:active {
-    background-color: #01a1b6;
+    background-color: #01adc4;
 }
 
 .tasks__button {
     color: #ffffff;
     border: none;
     margin: 8px;
+    transition: 0.4s;
 }
 
 .tasks__button--done {
@@ -29,15 +32,15 @@
 }
 
 .tasks__button--done:hover {
-    background-color: #24922a;
+    background-color: #2aa530;
 }
 
 .tasks__button--done:active {
-    background-color: #2c9e31;
+    background-color: #36b83c;
 }
 
 .tasks__button--remove {
-    background-color: #ed293c;
+    background-color: #df1428;
     border: none;
     color: #ffffff;
     padding-top: 2px;
@@ -48,9 +51,39 @@
 }
 
 .tasks__button--remove:hover {
-    background-color: #f8394c;
+    background-color: #eb3749;
 }
 
 .tasks__button--remove:active {
-    background-color: #ff4659;
+    background-color: rgb(255, 91, 107);
+}
+
+.tasks__button--hidden {
+    background-color: transparent;
+    cursor: pointer;
+    color: #007383;
+    border: none;
+    font-size: 18px;
+    padding: 20px;
+    transition: 0.4s;
+}
+
+@media(max-width:767px) {
+    .tasks__button--hidden {
+        display: grid;
+        grid-template-rows: 1fr;
+        justify-content: center;
+    }
+}
+
+.tasks__button--hidden:hover {
+    color: #009cb1;
+}
+
+.tasks__button--hidden:active {
+    color: #00b7cf;
+}
+
+.tasks__button--hiddenAllDone:disabled {
+    color: #999999;
 }

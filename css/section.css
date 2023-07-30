@@ -7,11 +7,24 @@
 
 
 .section__header {
-border-bottom: #dcdcdc 1px solid;
 padding: 20px;
 margin: 0;
 }
 
 .section__body {
     padding: 20px;
+}
+
+.section__element {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: #dcdcdc 1px solid;
+}
+
+@media(max-width:767px) {
+    .section__element {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
 }
