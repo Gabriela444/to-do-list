@@ -86,12 +86,11 @@
         for (const task of tasks) {
             htmlString += `
                 <li class="tasks task__item js-tasks task__content${hideDoneTasks && task.done ? " task__content--hideShow" : ""}">
-                <button class="tasks tasks__button tasks__button--done js-toggleDone">${task.done ? "✔" : ""}</button>
-                <span class="task__content${task.done ? " task__content--done" : ""}">${task.content}</span>
-                <button class="tasks tasks__button tasks__button--remove js-remove">🗑</button>
+                    <button class="tasks tasks__button tasks__button--done js-toggleDone">${task.done ? "✔" : ""}</button>
+                    <span class="task__content${task.done ? " task__content--done" : ""}">${task.content}</span>
+                    <button class="tasks tasks__button tasks__button--remove js-remove">🗑</button>
                 </li>
-            `
-        };
+            `};
 
         document.querySelector(".js-tasks").innerHTML = htmlString;
 
@@ -103,8 +102,15 @@
         if (tasks.length > 0) {
             htmlButtonString += `
                 <span>
-                <button class="tasks__button--hidden js-toggleHideDoneTasks">${hideDoneTasks ? "Pokaż ukończone" : "Ukryj ukończone"}</button>
-                <button class="tasks__button--hidden tasks__button--hiddenAllDone js-setAllTasksDone"${tasks.every(({ done }) => done) ? "disabled" : ""}>Ukończ wszystkie</button>
+                    <button class="tasks__button--hidden js-toggleHideDoneTasks">
+                    ${hideDoneTasks ? "Pokaż ukończone" : "Ukryj ukończone"}</button>
+                    <button class="
+                    tasks__button--hidden 
+                    tasks__button--hiddenAllDone 
+                    js-setAllTasksDone"
+                    ${tasks.every(({ done }) => done) ? "disabled" : ""}>
+                    Ukończ wszystkie
+                    </button>
                 </span>
             `};
 
@@ -113,7 +119,6 @@
     };
 
     const bindButtonsEvent = () => {
-
         const toggleHideShowButton = document.querySelector(".js-toggleHideDoneTasks");
         if (toggleHideShowButton) {
             toggleHideShowButton.addEventListener("click", toggleHideShow)
