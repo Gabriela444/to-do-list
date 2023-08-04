@@ -4,6 +4,7 @@
     padding: 10px;
     border: none;
     transition: 0.4s;
+    cursor: pointer;
 }
 
 .form__button:hover {
@@ -86,4 +87,5 @@
 
 .tasks__button--hiddenAllDone:disabled {
     color: #999999;
+    cursor: auto;
 }
