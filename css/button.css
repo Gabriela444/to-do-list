@@ -29,7 +29,7 @@
     color: #ffffff;
     width: 30px;
     height: 30px;
-
+    padding-left: 8px;
 }
 
 .tasks__button--done:hover {
@@ -44,7 +44,7 @@
     background-color: #df1428;
     border: none;
     color: #ffffff;
-    padding-top: 2px;
+    padding-top: 3px;
     padding-left: 10px;
     width: 30px;
     height: 30px;
